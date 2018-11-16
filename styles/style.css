@@ -1,0 +1,39 @@
+body, html {
+  background: #f8f8f8;
+  font-family: 'Menlo', monospace;
+  width: 20rem;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  color: #23a5b6;
+  padding-left: .5rem;
+  border-bottom: 1px solid #d9e5e6;
+}
+
+.version {
+  color: #0a5e69;
+  padding-left: .5rem;
+}
+
+.modal-body {
+  padding: .8rem;
+  line-height: 1.6;
+  border-bottom: 1px solid #d9e5e6;
+}
+
+.cta_links {
+  padding: .8rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cta_links a {
+  width: 4rem;
+  flex: 1;
+  text-decoration: none;
+  color: #0a5e69;
+}
